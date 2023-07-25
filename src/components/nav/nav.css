@@ -1,6 +1,5 @@
 nav{
-    background: rgba(36, 152, 119, 0);
-    background-color: blueviolet;
+    background: rgb(80, 78, 78);
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -8,5 +7,30 @@ nav{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 2.5rem;
+    border-radius: 1.5rem;
+    backdrop-filter: blur;
+
+}
+
+nav a{
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+nav a:hover{
+    background:rgba(0, 0, 0, .3);
+
+}
+
+nav a.active{
+    background: var(--color-bg);
+    color: var(--color-white);
 
 }
