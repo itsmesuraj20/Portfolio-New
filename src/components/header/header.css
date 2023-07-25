@@ -17,13 +17,36 @@ header{
     justify-content: center;
 }
 
-.me
-{
+/*=====================Header Social ============================*/
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+
+
+.header__socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
     background: var(--color-primary);
+}
+
+
+.image {
+    background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
-    position:absolute;
-    left: calc(50% -11rem);
-    margin-top: 4rem;
+    position: absolute;
+    top: 50%; /* Center the element vertically */
+    left: 50%; /* Center the element horizontally */
+    transform: translate(-50%, -50%); /* Move the element back by half its width and height */
     border-radius: 12rem 12rem 0 0;
-}
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+  }
+  

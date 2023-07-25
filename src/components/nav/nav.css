@@ -1,0 +1,12 @@
+nav{
+    background: rgba(36, 152, 119, 0);
+    background-color: blueviolet;
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index:2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
