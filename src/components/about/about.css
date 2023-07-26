@@ -29,3 +29,35 @@
 .about__me-image:hover{
     transform: rotate(0deg)
 }
+
+.about__cards
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+
+.about__card{
+    background: #1a1818;;
+    border: .5px solid transparent;
+    border-radius: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.about__card:hover{
+    background: transparent;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card small{
+    font-size: 1rem;
+    color: var(--color-light);
+}
+
+.about__content p{
+    margin: 2erm 0 2.6rem;
+    color: var(--color-light);
+}
